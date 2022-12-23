@@ -1,3 +1,27 @@
+## Give persistent linux container example using,mount,pid,uts,user,cgroup namespaces with pivot_root
+
+To create a persistent Linux container using multiple namespaces, you can use the unshare command and the --mount, --pid, --uts, --user, and --cgroup flags. Here is an example of how you might create a persistent Linux container using these namespaces:
+
+Start by creating a new namespace for the container using the unshare command:
+```
+unshare --mount --pid --uts --user --cgroup
+```
+This command creates new namespaces for the container for mount points, processes, hostnames, users, and resource control groups.
+
+Next, you can create a new mount namespace using the unshare command:
+```
+unshare --mount
+```
+This command creates a new mount namespace for the container, which allows you to mount and unmount filesystems within the namespace without affecting the host system or other containers.
+
+You can then use the mount command to mount a filesystem within the container's mount namespace. For example, you might mount an empty directory as the root filesystem for the container:
+
+```
+mount --bind /path/to/empty/directory /
+You can then use the pivot_root command to change the root directory for the container:
+``
+
+
 ## Give me golang code example for creating persistent Linux container using multiple namespaces (mount,pid,uts,user,cgroup,network) 
 
 > Here is an example of how you might create a persistent Linux container using multiple namespaces in Go:

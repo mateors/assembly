@@ -56,3 +56,16 @@ Developing an entire operating system from scratch is a complex and challenging 
 3. Practice: As with any programming project, the best way to learn about operating system development is to practice writing code and working through exercises. You can find many exercises and challenges online to help you hone your skills.
 
 > It's important to note that developing an operating system from scratch is a significant undertaking that requires a lot of time and dedication. It is not a project that can be completed quickly or easily, but with persistence and a good learning resource, it is possible to develop an operating system.
+
+## How do I make a bootable iso image from ELF executable file
+To create a bootable ISO image from an ELF executable file, you will need to perform the following steps:
+
+1. Create a bootable USB drive or CD/DVD: You will need to create a bootable USB drive or CD/DVD that can be used to boot your computer. You can use a tool like Rufus (for USB drives) or ImgBurn (for CD/DVDs) to create a bootable USB drive or CD/DVD.
+
+2. Copy the ELF executable file to the bootable drive: Once you have created a bootable USB drive or CD/DVD, you will need to copy the ELF executable file to the root directory of the bootable drive.
+
+3. Modify the bootloader configuration: You will need to modify the bootloader configuration to specify that the ELF executable file should be run when the bootable drive is booted. This typically involves modifying the bootloader configuration file, such as the "grub.cfg" file for GRUB or the "syslinux.cfg" file for SYSLINUX.
+
+4. Create the ISO image: Once you have modified the bootloader configuration, you can use a tool like ImgBurn to create an ISO image from the contents of the bootable drive.
+
+> It's important to note that creating a bootable ISO image from an ELF executable file is a complex task that requires a good understanding of bootloaders and operating system boot process. It may be helpful to consult documentation or seek guidance from an experienced developer if you are not familiar with these concepts.

@@ -69,3 +69,17 @@ To create a bootable ISO image from an ELF executable file, you will need to per
 4. Create the ISO image: Once you have modified the bootloader configuration, you can use a tool like ImgBurn to create an ISO image from the contents of the bootable drive.
 
 > It's important to note that creating a bootable ISO image from an ELF executable file is a complex task that requires a good understanding of bootloaders and operating system boot process. It may be helpful to consult documentation or seek guidance from an experienced developer if you are not familiar with these concepts.
+
+
+## Give me resource for good understanding of bootloaders and operating system boot process.
+There are many resources available for learning about bootloaders and the operating system boot process. Some good options include:
+
+1. Books: There are many books available that cover the basics of bootloaders and the operating system boot process. Some popular choices include "Operating Systems: Three Easy Pieces" by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau, and "Designing Operating Systems" by Andrew S. Tanenbaum.
+
+2. Online tutorials and courses: There are also many online tutorials and courses that can help you learn about bootloaders and the operating system boot process. Some popular options include courses on Udemy, Coursera, and edX.
+
+3. Open source operating systems: Another way to learn about bootloaders and the operating system boot process is to study the source code of existing open source operating systems. Some popular open source operating systems include Linux, FreeBSD, and OpenBSD.
+
+4. Practice: As with any programming topic, the best way to learn about bootloaders and the operating system boot process is to practice writing code and working through exercises. You can find many exercises and challenges online to help you hone your skills.
+
+> It's important to note that understanding bootloaders and the operating system boot process can be complex, and it may take some time and effort to fully grasp these concepts. However, with persistence and a good learning resource, it is possible to gain a good understanding of these topics.

@@ -10,4 +10,4 @@ There are many resources available for learning assembly language from scratch. 
 
 4. Practice: As with any programming language, the best way to learn assembly language is to practice writing code and working through exercises. You can find many exercises and challenges online to help you hone your skills.
 
-It's important to note that learning assembly language can be challenging, as it is a low-level programming language that is closer to the hardware of the computer than high-level languages like C or Python. However, with persistence and a good learning resource, it is possible to master assembly language programming.
+> It's important to note that learning assembly language can be challenging, as it is a low-level programming language that is closer to the hardware of the computer than high-level languages like C or Python. However, with persistence and a good learning resource, it is possible to master assembly language programming.

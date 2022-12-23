@@ -67,3 +67,40 @@ This will start QEMU and boot the image from the bootable.iso file. When the boo
 
 I hope this helps! Let me know if you have any questions.
 
+## Give me an example how can I make my golang executable file as a bootable image for QEMU x86 architecture
+
+Sure, here is an example of how you can create a bootable image for QEMU x86 architecture using a Go executable file:
+
+First, you will need to install the xorriso utility, which is used to create bootable ISO images. On Debian-based systems, you can install xorriso using the following command:
+```
+sudo apt-get install xorriso
+```
+
+Next, create a directory called boot and copy your Go executable file into it. This directory will be used to create the bootable image.
+
+Create a file called grub.cfg in the boot directory with the following contents:
+
+```
+menuentry "My Go Program" {
+    multiboot /boot/my_go_program
+}
+```
+
+This file tells GRUB, the bootloader that will be used in the bootable image, to display a menu entry called "My Go Program" and to load the my_go_program file as the kernel when it is selected.
+
+Run the following command to create the bootable image:
+```
+xorriso -as mkisofs -o bootable.iso -isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin -c boot/boot.cat -b boot/grub.efi -no-emul-boot -boot-load-size 4 -boot-info-table boot
+```
+
+This command creates an ISO image called bootable.iso that contains the boot directory and its contents. The -isohybrid-mbr option specifies that the image should contain a hybrid MBR, which allows it to be booted from either BIOS or UEFI systems. The `-c boot/boot.cat` and `-b boot/grub.efi` options tell GRUB to use the boot catalog and EFI boot image from the boot directory, respectively. The -no-emul-boot and -boot-load-size options disable emulation and set the boot load size, respectively.
+
+You can now boot the image in QEMU using the following command:
+```
+qemu-system-x86_64 -cdrom bootable.iso
+```
+
+This will start QEMU and boot the image from the bootable.iso file. When the boot menu appears, select the "My Go Program" menu entry to run the my_go_program file.
+
+I hope this helps! Let me know if you have any questions.
+

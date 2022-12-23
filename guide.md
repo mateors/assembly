@@ -6,7 +6,7 @@ There are many resources available for learning assembly language from scratch. 
 
 2. Books: There are also many books available that cover the basics of assembly language programming. Some popular choices include "Assembly Language for x86 Processors" by Kip Irvine and "The Art of Assembly Language" by Randall Hyde.
 
-3. Interactive online tools: There are also interactive online tools that can help you learn assembly language programming. One popular example is the assembler and simulator provided by the University of Manchester.
+3. Interactive online tools: There are also interactive online tools that can help you learn assembly language programming. One popular example is the assembler and [http://curation.cs.manchester.ac.uk/digital60/www.digital60.org/rebuild/50th/competition/alt_simulators.html](simulator provided by the University of Manchester).
 
 4. Practice: As with any programming language, the best way to learn assembly language is to practice writing code and working through exercises. You can find many exercises and challenges online to help you hone your skills.
 
@@ -41,3 +41,18 @@ Building an email server with a client interface like GSuite can be a complex an
 4. Business considerations: Building an email server and client interface is not just a technical challenge, it is also a business opportunity. Do you have a plan for how you will market and sell your product, and how you will generate revenue?
 
 > Overall, building an email server and client interface like GSuite can be a rewarding and lucrative career opportunity, but it is also a significant undertaking that requires careful planning and execution. If you are up to the challenge and have the necessary skills and resources, it could be a viable career path for you.
+
+
+## I want to develop an entire operating system from scratch, Give me comprehensive learning resources for that.
+
+Developing an entire operating system from scratch is a complex and challenging task that requires a deep understanding of computer systems, software development, and operating system design. If you are interested in pursuing this project, there are a few resources that you might find helpful:
+
+1. Books: There are many books available that cover the basics of operating system development. Some popular choices include "Operating Systems: Three Easy Pieces" by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau, and "Designing Operating Systems" by Andrew S. Tanenbaum.
+
+2. Online courses: There are also many online courses that can help you learn the fundamentals of operating system development. Some popular options include courses on Udemy, Coursera, and edX.
+
+3. Open source operating systems: Another way to learn about operating system development is to study the source code of existing open source operating systems. Some popular open source operating systems include Linux, FreeBSD, and OpenBSD.
+
+3. Practice: As with any programming project, the best way to learn about operating system development is to practice writing code and working through exercises. You can find many exercises and challenges online to help you hone your skills.
+
+> It's important to note that developing an operating system from scratch is a significant undertaking that requires a lot of time and dedication. It is not a project that can be completed quickly or easily, but with persistence and a good learning resource, it is possible to develop an operating system.

@@ -34,3 +34,4 @@
 * [kernel development in C](http://www.osdever.net/bkerndev/Docs/intro.htm)
 * [Linux - Build a embedded linux using buildroot](https://www.youtube.com/watch?v=ysoi0bn66oM)
 * https://www.balena.io/docs/learn/getting-started/qemux86-64/go/
+* [OS Dev](https://www.youtube.com/playlist?list=PLxN4E629pPnKKqYsNVXpmCza8l0Jb6l8-)

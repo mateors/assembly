@@ -14,7 +14,7 @@ There are many resources available for learning assembly language from scratch. 
 
 ## I am a golang programmer what would you suggest  as a best career for me?
 
-> Go (also known as Golang) is a popular programming language that is widely used in a variety of industries, including web development, cloud computing, and data analytics. As a Go programmer, you have a wide range of career options available to you.
+Go (also known as Golang) is a popular programming language that is widely used in a variety of industries, including web development, cloud computing, and data analytics. As a Go programmer, you have a wide range of career options available to you.
 
 Some potential career paths for Go programmers include:
 
@@ -26,4 +26,4 @@ Some potential career paths for Go programmers include:
 
 4. DevOps engineer: Go is frequently used for building tools and automation scripts that are used in DevOps workflows, and many companies are looking for Go developers with expertise in this area.
 
-Overall, there are many career opportunities available to Go programmers, and the best career path for you will depend on your interests and skills.
+> Overall, there are many career opportunities available to Go programmers, and the best career path for you will depend on your interests and skills.

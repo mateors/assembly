@@ -32,3 +32,4 @@
 * [Video](https://www.youtube.com/watch?v=6MJUGVFAXKg)
 * [Mike OS](http://mikeos.sourceforge.net/)
 * [kernel development in C](http://www.osdever.net/bkerndev/Docs/intro.htm)
+* [Linux - Build a embedded linux using buildroot](https://www.youtube.com/watch?v=ysoi0bn66oM)

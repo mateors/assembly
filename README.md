@@ -29,6 +29,7 @@
 
 
 # Resources
+* [Architecture 1001: Intel x86-64 Assembly](https://www.youtube.com/playlist?list=PLUFkSN0XLZ-m9B0DhHjkXd8foIMuZO1Gd)
 * [Video](https://www.youtube.com/watch?v=6MJUGVFAXKg)
 * [Mike OS](http://mikeos.sourceforge.net/)
 * [kernel development in C](http://www.osdever.net/bkerndev/Docs/intro.htm)

@@ -42,3 +42,7 @@
 * [Linux - Build a embedded linux using buildroot](https://www.youtube.com/watch?v=ysoi0bn66oM)
 * https://www.balena.io/docs/learn/getting-started/qemux86-64/go/
 * [OS Dev](https://www.youtube.com/playlist?list=PLxN4E629pPnKKqYsNVXpmCza8l0Jb6l8-)
+
+## Video Tutorial
+* [Introduction to Assembly Programming](https://www.youtube.com/watch?v=in-UY_EyI14&list=PL2EF13wm-hWAlQe87UB2HV0SVhBXFpXbn)
+* 

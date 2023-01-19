@@ -1,7 +1,9 @@
 # Assembly Language Learning Resources
 
-## ARM Emulator
+## ASSEMBLY Emulator
 * https://cpulator.01xz.net
+* http://pasm.pis.to/#test
+* https://rkharris12.github.io/assembly_emulator
 
 ## Netwide Assembler - NASM
 > Official website https://www.nasm.us

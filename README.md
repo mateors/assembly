@@ -45,4 +45,4 @@
 
 ## Video Tutorial
 * [Introduction to Assembly Programming](https://www.youtube.com/watch?v=in-UY_EyI14&list=PL2EF13wm-hWAlQe87UB2HV0SVhBXFpXbn)
-* 
+* [x86 Assembly](https://www.youtube.com/playlist?list=PL0fxbw07Gos3AogW69p1n1gIDHaOazxL9)

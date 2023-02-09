@@ -43,6 +43,11 @@
 * https://www.balena.io/docs/learn/getting-started/qemux86-64/go/
 * [OS Dev](https://www.youtube.com/playlist?list=PLxN4E629pPnKKqYsNVXpmCza8l0Jb6l8-)
 
+## Tools
+* [Hex Editor](https://mh-nexus.de/en/hxd)
+* [Hello World in x86](https://www.youtube.com/watch?v=aPHAxFAwC7g)
+
+
 ## Video Tutorial
 * [Introduction to Assembly Programming](https://www.youtube.com/watch?v=in-UY_EyI14&list=PL2EF13wm-hWAlQe87UB2HV0SVhBXFpXbn)
 * [x86 Assembly](https://www.youtube.com/playlist?list=PL0fxbw07Gos3AogW69p1n1gIDHaOazxL9)

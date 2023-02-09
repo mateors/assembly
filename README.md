@@ -42,6 +42,9 @@
 * [Linux - Build a embedded linux using buildroot](https://www.youtube.com/watch?v=ysoi0bn66oM)
 * https://www.balena.io/docs/learn/getting-started/qemux86-64/go/
 * [OS Dev](https://www.youtube.com/playlist?list=PLxN4E629pPnKKqYsNVXpmCza8l0Jb6l8-)
+* ["Hello, World" in x86 Assembly Language](https://montcs.bloomu.edu/Information/LowLevel/Assembly/hello-asm.html)
+* [Decimal - Binary - Octal - Hex – ASCII](https://web.alfredstate.edu/faculty/weimandn/miscellaneous/ascii/ASCII%20Conversion%20Chart.pdf)
+* [ELF FILE,PROGRAM, HEADER, SEGMENT ](https://dacvs.neocities.org/1exit)
 
 ## Tools
 * [Hex Editor](https://mh-nexus.de/en/hxd)

@@ -1,6 +1,7 @@
 # Assembly Language Learning Resources
 
 * X86-64 general purpose register 
+* https://cs.lmu.edu/~ray/notes/x86assembly/
 
 ## ASSEMBLY Emulator
 * https://cpulator.01xz.net

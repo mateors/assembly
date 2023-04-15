@@ -1,5 +1,7 @@
 # Assembly Language Learning Resources
 
+* X86-64 general purpose register 
+
 ## ASSEMBLY Emulator
 * https://cpulator.01xz.net
 * http://pasm.pis.to/#test

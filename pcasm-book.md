@@ -76,4 +76,15 @@ Segments can be divided into smaller 4K-sized units called pages
 
 
 ## Interrupts
+The hardware of a computer provides a mechanism called interrupts to handle these events. For example, when a mouse is moved, the mouse hardware interrupts the current program to handle the mouse movement (to move the mouse cursor, etc.) Interrupts cause control to be passed to an interrupt handler. Interrupt handlers are
+routines that process the interrupt. Each type of interrupt is assigned an integer number. At the beginning of physical memory, a table of interrupt vectors resides that contain the segmented addresses of the interrupt handlers. The number of interrupt is essentially an index into this table.
 
+> External interrupts are raised from outside the CPU.
+
+> Many I/O devices raise interrupts (e.g., keyboard, timer, disk drives, CD-ROM and sound cards). Internal interrupts are raised from within the CPU, either from an error or the interrupt instruction. Error interrupts are also called traps.
+
+> Interrupts generated from the interrupt instruction are called `software interrupts`.
+
+Many interrupt handlers return `control back` to the interrupted program when they finish. `They restore all the registers to the same values they
+had before the interrupt occurred`. Thus, the interrupted program runs as if nothing happened (except that it lost some CPU cycles). `Traps generally
+do not return`. Often they abort the program.

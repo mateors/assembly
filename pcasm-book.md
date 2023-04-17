@@ -88,3 +88,42 @@ routines that process the interrupt. Each type of interrupt is assigned an integ
 Many interrupt handlers return `control back` to the interrupted program when they finish. `They restore all the registers to the same values they
 had before the interrupt occurred`. Thus, the interrupted program runs as if nothing happened (except that it lost some CPU cycles). `Traps generally
 do not return`. Often they abort the program.
+
+# Assembly Language
+
+## Machine language
+Every type of CPU understands its own machine language. Instructions in machine language are numbers stored as bytes in memory. Each instruction has its own unique numeric code called its operation code or opcode for short. The 80x86 processor’s instructions vary in size. The opcode is
+always at the beginning of the instruction. Many instructions also include data (e.g., constants or addresses) used by the instruction.
+
+> Machine language is very difficult to program in directly. Deciphering the meanings of the numerical-coded instructions is tedious for humans.
+
+> For example, the instruction that says to add the EAX and EBX registers together and store the result back into EAX is encoded by the following hex
+codes:
+
+> `03 C3`
+
+This is hardly obvious. Fortunately, a program called an `assembler can do this tedious work` for the programmer.
+
+##  Assembly Language
+> An assembly language program is stored as text (just as a higher level language program). 
+
+Each assembly instruction represents exactly one machine instruction. For example, the addition instruction described above would be represented in assembly language as:
+
+> `add eax, ebx`
+
+Here the meaning of the instruction is much clearer than in machine code. The word add is a mnemonic for the addition instruction. The general form
+of an assembly instruction is: `mnemonic operand(s)`
+
+### An assembler
+> `An assembler` is a program that reads a text file with assembly instructions and converts the assembly into machine code. 
+
+### Compilers
+> `Compilers` are programs that do similar conversions for high-level programming languages. An assembler is much simpler than a compiler. Every assembly language statement directly represents a single machine instruction. 
+
+High-level language statements are much more complex and may require many machine instructions.
+
+Another important difference between assembly and high-level languages is that since every different type of CPU has its own machine language, it
+also has its own assembly language.
+
+Porting assembly programs between different computer architectures is much more difficult than in a high-level
+language

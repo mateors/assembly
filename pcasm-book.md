@@ -107,7 +107,7 @@ This is hardly obvious. Fortunately, a program called an `assembler can do this 
 ##  Assembly Language
 > An assembly language program is stored as text (just as a higher level language program). 
 
-Each assembly instruction represents exactly one machine instruction. For example, the addition instruction described above would be represented in assembly language as:
+Each assembly instruction represents exactly one machine instruction. For example, the addition instruction described above would be represented in assembly language as:
 
 > `add eax, ebx`
 
@@ -125,5 +125,67 @@ High-level language statements are much more complex and may require many machin
 Another important difference between assembly and high-level languages is that since every different type of CPU has its own machine language, it
 also has its own assembly language.
 
-Porting assembly programs between different computer architectures is much more difficult than in a high-level
-language
+Porting assembly programs between different computer architectures is much more difficult than in a high-level language.
+
+
+> Netwide Assembler or `NASM`
+
+## Instruction operands
+
+Machine code instructions have varying number and type of operands;
+
+however, in general, each instruction itself will have a fixed number of operands (0 to 3). 
+
+Operands can have the following types:
+
+### register: 
+These operands refer directly to the contents of the CPU’s registers.
+
+### memory: 
+These refer to data in memory. The address of the data may be a constant hardcoded into the instruction or may be computed using values of registers. Address are always offsets from the beginning of a segment.
+
+### immediate: 
+These are fixed values that are listed in the instruction itself. They are stored in the instruction itself (in the code segment), not in the data segment.
+
+### implied: 
+These operands are not explicitly shown. For example, the `increment instruction` adds one to a register or memory. The one is implied.
+
+## Basic instructions
+The most basic instruction is the MOV instruction. It moves data from one location to another (like the assignment operator in a high-level language).
+It takes two operands:
+
+```
+mov dest, src
+```
+
+The data specified by src is copied to dest. One restriction is that both operands may not be memory operands. This points out another quirk of
+assembly. There are often somewhat arbitrary rules about how the various instructions are used. The operands must also be the same size. The value
+of AX can not be stored into BL.
+
+Here is an example (semicolons start a comment):
+
+```
+mov eax, 3 ; store 3 into EAX register (3 is immediate operand)
+mov bx, ax ; store the value of AX into the BX register
+```
+
+The ADD instruction is used to add integers.
+
+```
+add eax, 4 ; eax = eax + 4
+add al, ah ; al = al + ah
+```
+
+The SUB instruction subtracts integers.
+
+```
+sub bx, 10 ; bx = bx - 10
+sub ebx, edi ; ebx = ebx - edi
+```
+
+The INC and DEC instructions increment or decrement values by one. Since the one is an implicit operand, the machine code for INC and DEC is smaller than for the equivalent ADD and SUB instructions.
+
+```
+inc ecx ; ecx++
+dec dl ; dl--
+```

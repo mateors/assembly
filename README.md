@@ -69,6 +69,8 @@ memory areas are called "segments"
 ## Tools
 * [Hex Editor](https://mh-nexus.de/en/hxd)
 * [Hello World in x86](https://www.youtube.com/watch?v=aPHAxFAwC7g)
+* https://github.com/tpisto/pasm
+* http://pasm.pis.to/#test
 
 
 ## Video Tutorial

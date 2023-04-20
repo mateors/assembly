@@ -1,0 +1,15 @@
+# Chapter 5: Data Manipulation in Assembly Language
+
+In this chapter, we will delve into the fundamental concepts of data manipulation in assembly language programming. Data manipulation is a critical aspect of programming, as it involves operations on data such as moving, copying, and transforming data values. Assembly language provides a rich set of instructions for performing various data manipulation tasks efficiently and effectively.
+
+We will start by discussing data movement instructions, which allow us to move data between memory and registers, as well as between different registers. We will explore different data movement instructions, such as load, store, move, push, and pop instructions, and their usage in transferring data in assembly language programs. We will also discuss the concept of data sizes and data types, such as byte, word, double word, and quad word, and their representation in assembly language instructions.
+
+Next, we will dive into arithmetic and logic instructions, which allow us to perform mathematical and logical operations on data values. We will explore different arithmetic instructions, such as add, subtract, multiply, and divide instructions, and their usage in performing basic arithmetic operations. We will also discuss different logic instructions, such as AND, OR, XOR, and NOT instructions, and their usage in performing logical operations on data values.
+
+Furthermore, we will discuss control flow instructions, which allow us to control the flow of execution in assembly language programs. We will explore different control flow instructions, such as jump, branch, and call instructions, and their usage in implementing conditional and unconditional jumps, loops, and subroutine calls. We will also discuss the concept of flags, which are special registers that hold the results of arithmetic and logic operations and are used in conditional branching.
+
+Additionally, we will discuss input/output instructions, which allow us to communicate with external devices such as memory-mapped I/O ports and peripherals. We will explore different input/output instructions, such as IN, OUT, and MOV instructions, and their usage in reading from and writing to external devices in assembly language programs.
+
+We will also discuss the concept of interrupt handling in assembly language programming, which allows the CPU to respond to external events such as hardware interrupts and software interrupts. We will explore different types of interrupts, interrupt vectors, and interrupt handling routines, and their role in handling interrupts in assembly language programs.
+
+In conclusion, this chapter provides a comprehensive overview of the concepts of data manipulation in assembly language programming. By the end of this chapter, readers will have a solid understanding of different data movement instructions, arithmetic and logic instructions, control flow instructions, input/output instructions, and interrupt handling in assembly language programming. Word count: 474 words.

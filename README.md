@@ -53,6 +53,7 @@ memory areas are called "segments"
 >However, IBM wasn’t the only vendor creating operating systems during this time. Control Data Corporation, Computer Sciences Corporation, Burroughs Corporation, GE, Digital Equipment Corporation, and Xerox all released mainframe operating systems in the 1960s as well.
 
 # Resources
+* [x86 arch](https://www.youtube.com/watch?v=DmwOSdwzZ3E)
 * [Architecture 1001: Intel x86-64 Assembly](https://www.youtube.com/playlist?list=PLUFkSN0XLZ-m9B0DhHjkXd8foIMuZO1Gd)
 * [Video](https://www.youtube.com/watch?v=6MJUGVFAXKg)
 * [Mike OS](http://mikeos.sourceforge.net/)

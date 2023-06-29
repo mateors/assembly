@@ -71,7 +71,7 @@ memory areas are called "segments"
 * [Hello World in x86](https://www.youtube.com/watch?v=aPHAxFAwC7g)
 * https://github.com/tpisto/pasm
 * http://pasm.pis.to/#test
-
+* https://yjdoc2.github.io/8086-emulator-web/
 
 ## Video Tutorial
 * [Introduction to Assembly Programming](https://www.youtube.com/watch?v=in-UY_EyI14&list=PL2EF13wm-hWAlQe87UB2HV0SVhBXFpXbn)
